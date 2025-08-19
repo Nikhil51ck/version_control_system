@@ -21,7 +21,7 @@ Inline colored diffs for modified files
 
 ⚙️ Setup
 1️⃣ Clone the repository
-git clone https://github.com/your-username/vcs.git
+git clone [https://github.com/Nikhil51ck/version_control_system.git]
 cd vcs
 
 2️⃣ Install dependencies
