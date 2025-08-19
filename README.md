@@ -140,8 +140,5 @@ commander – CLI command handling
 
 diff – text difference engine
 
-📌 License
-
-MIT License © 2025
 
 Do you want me to also add a section with a GIF demo (like asciinema recording) so it looks extra polished on GitHub?
