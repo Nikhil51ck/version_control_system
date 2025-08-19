@@ -28,56 +28,56 @@ cd vcs
 
 Make sure you have Node.js v18+ installed.
 
-npm install
+`npm install`
 
 3️⃣ Make the script globally executable
 Option A (recommended: via npm link)
-npm link
+`npm link`
 
 
 Now you can run the vcs command anywhere.
 
 Option B (manual chmod, Linux/macOS)
-chmod +x vcs.mjs
+`chmod +x vcs.mjs`
 
 
 Run locally with:
 
-./vcs.mjs <command>
+`./vcs.mjs <command>`
 
 Option C (Windows PowerShell)
 
 On Windows you can run:
 
-node vcs.mjs <command>
+`node vcs.mjs <command>`
 
 📦 Usage
 Initialize a repo
-vcs init
+`vcs init`
 
 
 Creates a .vcs/ folder with objects/, HEAD, and index.
 
 Add files
-vcs add file1.txt
+`vcs add file1.txt`
 
 
 Stages file1.txt for the next commit.
 
 Commit staged files
-vcs commit "Initial commit"
+`vcs commit "Initial commit"`
 
 
 Saves the current snapshot with a message.
 
 View commit history
-vcs log
+`vcs log`
 
 
 Outputs commit hashes, dates, and messages.
 
 Show changes (HEAD vs parent)
-vcs changes
+`vcs changes`
 
 
 Displays added, modified, or deleted files.
@@ -88,10 +88,10 @@ Green = added lines
 Red = removed lines
 
 Show changes of a specific commit
-vcs show <commit-hash>
+`vcs show <commit-hash>`
 
 Show file structure before & after a commit
-vcs tree [commit-hash]
+`vcs tree [commit-hash]`
 
 
 If no hash is provided, defaults to HEAD.
